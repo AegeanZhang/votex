@@ -30,6 +30,10 @@ BOOL MainWindow::InitInstance()
     ShowWindow(_hWnd, _nCmdShow);
     UpdateWindow(_hWnd);
 
+    // 创建一个按钮控件
+    CreateWindowW(L"BUTTON", L"Click Me", WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+        50, 50, 100, 30, _hWnd, (HMENU)1, _hInst, nullptr);
+
     return TRUE;
 }
 
