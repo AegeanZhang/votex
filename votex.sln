@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NeuralNetworks", "src\Neura
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VNote", "src\VNote\VNote.vcxproj", "{8407D41F-4F35-46B9-A117-831C4C068075}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VotexTookit", "src\VotexTookit\VotexTookit.vcxproj", "{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{8407D41F-4F35-46B9-A117-831C4C068075}.Release|x64.Build.0 = Release|x64
 		{8407D41F-4F35-46B9-A117-831C4C068075}.Release|x86.ActiveCfg = Release|Win32
 		{8407D41F-4F35-46B9-A117-831C4C068075}.Release|x86.Build.0 = Release|Win32
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Debug|x64.ActiveCfg = Debug|x64
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Debug|x64.Build.0 = Debug|x64
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Debug|x86.Build.0 = Debug|Win32
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Release|x64.ActiveCfg = Release|x64
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Release|x64.Build.0 = Release|x64
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Release|x86.ActiveCfg = Release|Win32
+		{3D0B6E6B-F836-4F47-9B74-08DE0BF94C28}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
